@@ -31,6 +31,10 @@
   line-height: 16px;
   width: 108px;
   height: 16px;
+  transition: all 0.5s;
+}
+.header__container .nav-list li a:hover {
+  color: #3ea83b;
 }
 
 .header__container .aloqa {
@@ -49,6 +53,72 @@
   height: 22px;
   color: #3d4a39;
   gap: 7px;
+}
+
+.hero {
+  width: 100%;
+  padding-top: 80px;
+}
+.hero img {
+  margin-left: 200px;
+}
+.hero .hero-title {
+  margin-top: -570px;
+  margin-left: 300px;
+}
+
+.hero__container h1 {
+  width: 446px;
+  height: 134px;
+  font-family: Raleway;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.hero__container h1 span {
+  margin-left: 120px;
+  font-family: Raleway;
+}
+.hero__container p {
+  width: 537px;
+  height: 81px;
+  opacity: 0.8px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 65px;
+}
+
+.hero__container .btn {
+  width: 260px;
+  height: 60px;
+  padding: 22px 56px 22px 56px;
+  gap: 10px;
+  background: #ae7b3c;
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.0509803922);
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-left: 100px;
+  transition: all 0.3s;
+}
+.hero__container .btnhover {
+  background-color: #1a1004;
+}
+.hero__container button {
+  margin-top: 120px;
+  width: 1200px;
+  border: 1px;
+  opacity: 0.4px;
+  border: 1px solid #ffffff;
 }
 
 * {
