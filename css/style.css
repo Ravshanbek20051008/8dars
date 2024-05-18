@@ -1,1 +1,65 @@
-/*# sourceMappingURL=style.css.map */
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 8;
+}
+.header .header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__container .logo {
+  width: 122px;
+  height: 53px;
+}
+.header__container .nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+.header__container .nav-list li a {
+  color: #282b22;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  width: 108px;
+  height: 16px;
+}
+
+.header__container .aloqa {
+  margin-left: 146px;
+  width: 49px;
+  height: 24px;
+}
+.header__container .telefon {
+  display: flex;
+  align-items: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  width: 196px;
+  height: 22px;
+  color: #3d4a39;
+  gap: 7px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sans-serif";
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
