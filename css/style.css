@@ -17,6 +17,7 @@
   height: 53px;
 }
 .header__container .nav-list {
+  margin-left: 50px;
   display: flex;
   align-items: center;
   list-style: none;
@@ -60,11 +61,11 @@
   padding-top: 80px;
 }
 .hero img {
-  margin-left: 200px;
+  /* margin-left: 200px; */
 }
 .hero .hero-title {
   margin-top: -570px;
-  margin-left: 300px;
+  margin-left: 350px;
 }
 
 .hero__container h1 {
@@ -123,10 +124,84 @@
 
 main {
   width: 100%;
+  width: 1200px;
+  height: 596px;
 }
-main .main__container .namuna {
+
+.main__container h1 {
+  width: 488px;
+  height: 58px;
+  font-family: Raleway;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 57.5px;
+  color: #232323;
+  margin-top: 240px;
+  margin-bottom: 80px;
+  margin-left: 350px;
+  text-transform: uppercase;
+}
+.main__container .namuna {
   display: flex;
   align-items: center;
+}
+.main__container .namuna img {
+  margin-top: 30px;
+  margin-left: 0px;
+  width: 333px;
+  height: 320px;
+  margin-right: 30px;
+  margin-bottom: 200px;
+}
+
+.main__container .box1 {
+  width: 363px;
+  height: 458px;
+  gap: 30px;
+}
+.main__container .box1 p {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 18px;
+  height: 24px;
+  opacity: 0.1px;
+  color: #6b6b6a;
+  margin-bottom: 60px;
+}
+.main__container .box1 span {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 298px;
+  height: 24px;
+  color: #3d4a39;
+}
+
+.main__container .namuna button {
+  width: 1px;
+  height: 460px;
+  border: 1px 0px 0px 0px;
+  opacity: 0.2px;
+  margin-right: 30px;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+    padding: 20px 20px;
+    .logo {
+      margin-left: 20px;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 960px;
+    padding: 20px 20px;
+    text-align: center;
+  }
 }
 
 * {
@@ -140,4 +215,4 @@ main .main__container .namuna {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
